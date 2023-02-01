@@ -1,0 +1,15 @@
+.newsletter {
+    background: gray;
+}
+
+.newsletter-form {
+    background: lightgray;
+}
+
+.newsletter-input {
+    border-radius: 4px;
+}
+
+.newsletter-submit-button {
+    cursor: pointer;
+}
