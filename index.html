@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <header class="main-layout main-header">
-        <span class="logo">Minimø</span>
+    <header class="flex align-center space-between main-layout main-header">
+        <div class="logo">Minimø</div>
         <nav>
-            <ul>
-                <li href="#"><a href="#">Lifestyle</a></li>
-                <li href="#"><a href="#">Photodiary</a></li>
-                <li href="#"><a href="#">Music</a></li>
-                <li href="#"><a href="#">Travel</a></li>
+            <ul class="flex header-nav">
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Photodiary</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Travel</a></li>
             </ul>
         </nav>
     </header>
@@ -92,17 +92,19 @@
                 </section>
             </li>
         </ul>
-        <section class="newsletter" aria-labelledby="newsletter-title">
+    </main>
+    <section class="newsletter-container" aria-labelledby="newsletter-title">
+        <div class="main-layout newsletter">
             <h2 id="newsletter-title">Sign up for our newsletter</h2>
             <form class="newsletter-form">
                 <input type="email" class="newsletter-input" placeholder="Enter a valid email address">
-                <button type="submit"  class="newsletter-submit-button" title="Sign up">→</button>
+                <button type="submit" class="newsletter-submit-button" title="Sign up">→</button>
             </form>
-        </section>
-        <footer class="main-layout main-footer">
-            <small>©Minimø 2023</small>
-        </footer>
-    </main>
+        </div>
+    </section>
+    <footer class="main-layout main-footer">
+        <small>©Minimø 2023</small>
+    </footer>
 </body>
 
 </html>

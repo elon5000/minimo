@@ -12,6 +12,7 @@
 @import 'components/card.css';
 @import 'components/screen.css';
 @import 'components/newsletter.css';
+@import 'components/main-header.css';
 
 /* MEDIA QUERYS */
 @import 'mq/mq.css';
