@@ -17,6 +17,10 @@
     flex-basis: 50%;
 }
 
+.card-layout ul > * .card-paragraph {
+    margin-bottom: 128px;
+}
+
 .card-layout ul > *:nth-child(even) {
     padding-inline-end: 30px;
     padding-inline-start: 80px;
