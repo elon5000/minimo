@@ -14,3 +14,10 @@
 .flex.space-between {
     justify-content: space-between;
 }
+
+.logo {
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: inconsolata, monospace;
+}
