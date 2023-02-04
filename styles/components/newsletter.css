@@ -1,16 +1,24 @@
 .newsletter-container {
-    background: var(--light-background-gray);
+    padding: 70px 0;
+    text-align: center;
+    background: var(--light-background-color);
 }
 
-.news-letter
+.newsletter #newsletter-title {
+    font-size: 2.143em;
+    margin-block-end: 1em;
+    color: var(--dark-font-color);
+}
 
 .newsletter-form {
 }
 
 .newsletter-input {
-    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    background: none;
 }
 
-.newsletter-submit-button {
-    cursor: pointer;
+.newsletter .newsletter-submit-button {
+    font-size: 1.2em;
 }

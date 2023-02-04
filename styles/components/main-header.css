@@ -4,7 +4,7 @@
 }
 
 .main-header .header-logo {
-    color: var(--black);
+    color: var(--darkest-color);
     font-size: 1.875rem;
 }
 
@@ -19,5 +19,5 @@
 }
 
 .main-header .header-nav-container .header-nav a:hover {
-    color: var(--black);
+    color: var(--darkest-color);
 }

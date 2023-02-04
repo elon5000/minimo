@@ -12,7 +12,7 @@ html {
 body {
     font-size: 0.875rem;
     line-height: 1.7143;
-    background: var(--white);
+    background: var(--primary-bg-color);
 }
 
 img {
@@ -24,9 +24,35 @@ ul {
 }
 
 a {
-    color: var(--black);
+    color: var(--darkest-color);
 }
 
 a:hover {
     text-decoration: none;
+}
+
+input {
+    border: none;
+    padding: 1em 0;
+    font-size: 1em;
+    background: none;
+    font-family: playfair, serif;
+    color: var(--main-font-color);
+    border-bottom: 1px solid var(--darkest-color);
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 0.12em;
+    background: none;
+}
+
+button:hover {
+    color: var(--main-font-color);
+    transform: scale(1.2);
 }
