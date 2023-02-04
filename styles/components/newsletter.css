@@ -1,11 +1,10 @@
 .newsletter-container {
-    background: gray;
+    background: var(--light-background-gray);
 }
 
 .news-letter
 
 .newsletter-form {
-    background: lightgray;
 }
 
 .newsletter-input {

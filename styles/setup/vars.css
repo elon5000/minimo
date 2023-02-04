@@ -1,5 +1,7 @@
 :root {
+    --white: #f9f9f9;
     --black: #000000;
-    --light-font-gray: #b4ad9e;
     --main-font-color: #626262;
+    --light-font-gray: #b4ad9e;
+    --light-background-gray: #e0e0e0;
 }
