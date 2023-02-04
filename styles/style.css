@@ -13,6 +13,7 @@
 @import 'components/screen.css';
 @import 'components/newsletter.css';
 @import 'components/main-header.css';
+@import 'components/main-footer.css';
 
 /* MEDIA QUERYS */
 @import 'mq/mq.css';
