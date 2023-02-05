@@ -8,25 +8,10 @@
     flex-wrap: wrap;
 }
 
-.card-layout ul > *:first-child section > *:not(.card-image) {
-    margin-inline-end: 80px;
-    margin-inline-start: 80px;
+.card-layout ul>* .card-paragraph {
+    margin-bottom: 48px;
 }
 
-.card-layout ul > *:not(:first-child) {
-    flex-basis: 50%;
-}
 
-.card-layout ul > * .card-paragraph {
-    margin-bottom: 128px;
-}
 
-.card-layout ul > *:nth-child(even) {
-    padding-inline-end: 30px;
-    padding-inline-start: 80px;
-}
 
-.card-layout ul > *:not(:first-child):nth-child(odd) {
-    padding-inline-end: 80px;
-    padding-inline-start: 30px;
-}
