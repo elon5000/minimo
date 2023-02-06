@@ -1,9 +1,10 @@
 :root {
-    --primary-bg-color: #f9f9f9;
     --darkest-color: #000000;
     --dark-font-color: #333333;
     --main-font-color: #626262;
     --light-font-color: #b4ad9e;
+    --primary-bg-color: #f9f9f9;
+    --primary-bg-color-trans: #f9f9f9de;
     --light-background-color: #e0e0e0;
     --trasnparent-dark-color: rgba(0, 0, 0, 0.299);
 }

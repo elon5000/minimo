@@ -54,5 +54,4 @@ button {
 
 button:hover {
     color: var(--main-font-color);
-    transform: scale(1.2);
 }

@@ -4,12 +4,8 @@
 }
 
 .main-header .header-logo {
-    color: var(--darkest-color);
     font-size: 1.875rem;
-}
-
-.main-header .header-nav-container .header-nav > *:not(:last-child) {
-    margin-inline-end: 6.25rem;
+    color: var(--darkest-color);
 }
 
 .main-header .header-nav-container .header-nav a {
@@ -20,4 +16,8 @@
 
 .main-header .header-nav-container .header-nav a:hover {
     color: var(--darkest-color);
+}
+
+.main-header .header-nav-toggle {
+    font-size: 1.2rem;
 }
