@@ -1,0 +1,9 @@
+.main-screen {
+    inset: 0;
+    display: none;
+    background: var(--trasnparent-dark-color);
+}
+
+body.menu-open .main-screen {
+    display: block;
+}

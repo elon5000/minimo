@@ -3,6 +3,10 @@
     position: fixed;
 }
 
+.fixed {
+    position: fixed;
+}
+
 .flex {
     display: flex;
 }

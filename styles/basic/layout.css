@@ -1,7 +1,7 @@
 
 .main-layout {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: calc(100% - 30px);
 }
 
 .card-layout ul {

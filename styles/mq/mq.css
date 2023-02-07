@@ -1,6 +1,11 @@
 
 /* MOBILE ONLY */
 @media (max-width: 840px) {
+
+    .main-header {
+        height: 80px;
+    }
+
     .main-header .header-nav-container {
         top: 0;
         right: 0;

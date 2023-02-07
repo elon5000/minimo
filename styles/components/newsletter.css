@@ -10,9 +10,6 @@
     color: var(--dark-font-color);
 }
 
-.newsletter-form {
-}
-
 .newsletter-input {
     width: 100%;
     max-width: 400px;
@@ -21,4 +18,9 @@
 
 .newsletter .newsletter-submit-button {
     font-size: 1.2em;
+    transition: 0.3s transform;
+}
+
+.newsletter .newsletter-submit-button:hover {
+    transform: translateX(6px);
 }

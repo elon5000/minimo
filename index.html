@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div onclick="onToggleMenu()" class="fixed main-screen"></div>
     <header class="flex align-center space-between main-layout main-header">
         <div class="logo header-logo">Minimø</div>
         <nav class="header-nav-container">
@@ -23,7 +24,7 @@
                 <li><a href="#">Travel</a></li>
             </ul>
         </nav>
-        <button onclick="onToggleMenu()" class="nav-toggle-btn">☰</button>
+        <button onclick="onToggleMenu()" title="Navbar toggle" class="nav-toggle-btn">☰</button>
     </header>
     <main class="main-layout card-layout main-content">
         <ul class="flex">
@@ -31,7 +32,7 @@
                 <section class="card">
                     <img class="card-image" src="img/001.jpg" alt="Article image">
                     <div class="card-tag">Lifestyle</div>
-                    <h2 class="card-title">The perefct weekend gateway</h2>
+                    <h2 class="card-title">The perfect weekend gateway</h2>
                     <p class="card-paragraph">Lorem ipsum dolor <a href="#">amet consectetur</a> adipisicing elit. Reiciendis,
                         dolorum!
                         Ex
@@ -97,14 +98,14 @@
     <section class="newsletter-container" aria-labelledby="newsletter-title">
         <div class="main-layout newsletter">
             <h2 id="newsletter-title">Sign up for our newsletter</h2>
-            <form class="newsletter-form">
+            <form class="flex justify-center newsletter-form">
                 <input type="email" class="newsletter-input" placeholder="Enter a valid email address">
-                <button type="submit" class="newsletter-submit-button" title="Sign up">→</button>
+                <button type="submit" class="newsletter-submit-button" title="Sign up">➤</button>
             </form>
         </div>
     </section>
     <footer class="flex justify-center main-layout main-footer">
-        <small><span class="logo">©Minimø 2023</small>
+        <small><span class="logo">©Minimø - Elon Barzani 2023</span></small>
     </footer>
     <script src="js/main.js"></script>
 </body>
