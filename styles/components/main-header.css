@@ -18,6 +18,6 @@
     color: var(--darkest-color);
 }
 
-.main-header .header-nav-toggle {
-    font-size: 1.2rem;
+.main-header .nav-toggle-btn {
+    font-size: 1.4em;
 }
