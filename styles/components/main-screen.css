@@ -1,6 +1,7 @@
 .main-screen {
     inset: 0;
     display: none;
+    cursor: pointer;
     background: var(--trasnparent-dark-color);
 }
 
